@@ -42,14 +42,13 @@ body {
   font-weight: 900;
 }
 
-.body {
-  flex: 1;
-  display: flex;
-}
+
 
 .sidebar {
-  flex-shrink: 0;
+  
   padding: 16px;
+  flex: 1;
+  display: flex;
 }
 
 ul {
@@ -72,6 +71,8 @@ a {
   padding: 32px;
   display: flex;
   flex-wrap: wrap;
+  
+  display: flex;
 }
 
 .card {
